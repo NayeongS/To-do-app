@@ -1,0 +1,88 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+
+.container {
+  /* 페이지 중앙 정렬 */
+  margin: 0 auto;
+  /* 단위로 em이나 rem을 쓰는게 좋다고 들었음 */
+  margin-top: 4rem;
+  width: 600px;
+  background-color: #fff;
+  /* 그림자 */
+  box-shadow: 0 6px 9px rgba(0,0,0,0.16), 0 6px 9px rgba(0,0,0,0.23);
+  /* 테두리 둥글게 */
+  border-radius: 20px;
+}
+
+.contents {
+  padding: 3rem;
+}
+
+.lists {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.listContent {
+  display: flex;
+  flex: 14;
+}
+
+.list {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.deleteBtn {
+  /* float: right; */
+  display: flex;
+  flex: 0.5;
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  font-size: 1.5rem;
+}
+
+.editBtn {
+  display: flex;
+  flex: 1;
+  margin-right: 20px;
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  font-size: 1.5rem;
+}
+
+.form {
+  display: flex;
+  font-size: 2rem;
+}
+
+.inputText {
+  flex: 10;
+  margin-right: 10px;
+}
+
+.inputSubmit {
+  flex: 1;
+  font-size: 2rem;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
